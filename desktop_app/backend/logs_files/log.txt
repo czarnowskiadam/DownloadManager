@@ -1,0 +1,19 @@
+[2025-02-27 19:35:13]  Default icon restored for direcotry 'b'
+[2025-02-27 19:26:10]  Icon set to directory: 'b'
+[2025-02-27 19:26:00]  Chosen icon 'test' doesn't exists
+[2025-02-27 19:25:19]  Directory '	est' doesn't exists
+[2025-02-27 12:27:09]  Error occured while moving directory 'b'
+[2025-02-27 12:26:16]  Error occured while moving directory 'b'
+[2025-02-27 12:11:03]  Directory 'b' has been moved to new localisation
+[2025-02-27 12:09:42]  Cannot move directory 'b', because it already exists in new destination
+[2025-02-27 12:09:31]  Cannot move directory 'b', because it already exists in new destination
+[2025-02-27 12:05:02]  Error occured while moving directory 'b'
+[2025-02-27 11:52:23]  Directory name 'a' has been changed to 'b'
+[2025-02-27 11:52:11]  New directory name is the same as old. Nothing happened
+[2025-02-27 11:25:56]  Directory 'a' already exist in 'D:\test'
+[2025-02-27 11:15:13]  Directory 'b' doesn't exists
+[2025-02-27 11:02:50]  Directory 'testowy' has been removed
+[2025-02-27 11:02:50]  Directory 'testowy' has been created at 'D:\test'
+[2025-02-27 09:52:18]  Directory doesn't exists at D:\test\testowy
+[2025-02-27 09:51:55]  Directory has been moved to trash successfully
+[2025-02-27 09:51:55]  Directory 'testowy' has been created at 'D:\test'

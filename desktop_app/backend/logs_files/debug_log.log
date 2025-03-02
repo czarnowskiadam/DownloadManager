@@ -1,0 +1,30 @@
+ERROR [2025-02-27 12:27:09]
+	Function name: get_dictionary_stats
+	Function file: d:\Projects\Document Manager\backend\dir_operations.py
+	Line number: 132
+	Code: "creation_time": datetime.fromtimestamp(dir_path.stat().st_birthtime).strftime("%Y-%m-%d %H:%M:%S")
+	Message: module 'datetime' has no attribute 'fromtimestamp'
+ERROR [2025-02-27 12:26:16]
+	Function name: get_dictionary_stats
+	Function file: d:\Projects\Document Manager\backend\dir_operations.py
+	Line number: 130
+	Code: "size": utils.format_bytes(directory_info['byte_size']),
+	Message: cannot access local variable 'directory_info' where it is not associated with a value
+ERROR [2025-02-27 12:05:02]
+	Function name: move
+	Function file: C:\Users\adame\AppData\Local\Programs\Python\Python313\Lib\shutil.py
+	Line number: 854
+	Code: raise Error("Destination path '%s' already exists" % real_dst)
+	Message: Destination path 'D:\test1\b' already exists
+ERROR [2025-02-27 11:14:44]
+	Function name: directory_secure_delete
+	Function file: d:\Projects\Document Manager\backend\dir_operations.py
+	Line number: 65
+	Code: if is_directory_empty():
+	Message: is_directory_empty() missing 1 required positional argument: 'directory_path'
+ERROR [2025-02-27 11:12:32]
+	Function name: directory_secure_delete
+	Function file: d:\Projects\Document Manager\backend\dir_operations.py
+	Line number: 65
+	Code: if is_directory_empty():
+	Message: is_directory_empty() missing 1 required positional argument: 'directory_path'
