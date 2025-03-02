@@ -132,6 +132,10 @@ def set_message_to_first_line(log_file_path: str, temp_path: str, error_message:
         with open(log_file_path, "w") as debug_log_file:
             debug_log_file.write(error_message)
 
+import datetime
+import inspect
+import traceback
+
 def write_debug(message: str=""):
     '''
     Logs debug information, including function details and error messages.
@@ -151,12 +155,36 @@ def write_debug(message: str=""):
     temp_path = debug_log_file_path + ".tmp"
 
     if message != "":
-        caller_frame = inspect.stack()[1]
+        stack = inspect.stack()
+        
+        # Obecna funkcja, czyli `write_debug`
+        caller_frame = stack[1]  
         filename = caller_frame.filename
         func_name = caller_frame.function
         lineno = caller_frame.lineno
+        
+        # Szukamy nadrzędnej linii (gdzie wywołano funkcję, np. przy tworzeniu obiektu klasy)
+        if len(stack) > 2:
+            parent_frame = stack[2]  
+            parent_filename = parent_frame.filename
+            parent_func_name = parent_frame.function
+            parent_lineno = parent_frame.lineno
+        else:
+            parent_filename = "N/A"
+            parent_func_name = "N/A"
+            parent_lineno = "N/A"
 
-        error_message = f"INFO [{time_stamp}]\n\tFunction name: {func_name}\n\tFunction file: {filename}\n\tLine number: {lineno}\n\tMessage: {message}\n"
+        error_message = (
+            f"ERROR [{time_stamp}]\n"
+            f"\tFile: {filename}\n"
+            f"\tFunction: {func_name}\n"
+            f"\tLine: {lineno}\n"
+            f"\tMessage: {message}\n"
+            f"\tCalled from:\n"
+            f"\t\tFile: {parent_filename}\n"
+            f"\t\tFunction: {parent_func_name}\n"
+            f"\t\tLine: {parent_lineno}\n"
+        )
 
         set_message_to_first_line(debug_log_file_path, temp_path, error_message)
 

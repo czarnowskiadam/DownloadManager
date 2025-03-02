@@ -1,3 +1,88 @@
+ERROR [2025-03-02 17:30:19]
+	File: d:\Projects\DownloadManager\desktop_app\app.py
+	Function: set_png_icon
+	Line: 398
+	Message: One of the PNG icons is missing
+	Called from:
+		File: d:\Projects\DownloadManager\desktop_app\app.py
+		Function: create_home_frame
+		Line: 184
+ERROR [2025-03-02 17:30:04]
+	File: d:\Projects\DownloadManager\desktop_app\app.py
+	Function: set_png_icon()
+	Line: 398
+	Message: One of the PNG icons is missing
+	Called from:
+		File: d:\Projects\DownloadManager\desktop_app\app.py
+		Function: create_home_frame()
+		Line: 184
+ERROR [2025-03-02 17:28:15]
+	File: d:\Projects\DownloadManager\desktop_app\app.py
+	Function: set_png_icon()
+	Line: 398
+	Message: One of the PNG icons is missing
+	Called from:
+		File: d:\Projects\DownloadManager\desktop_app\app.py
+		Function: create_home_frame(
+		Line: 184
+ERROR [2025-03-02 17:28:02]
+	Function name: set_png_icon
+	File: d:\Projects\DownloadManager\desktop_app\app.py
+	Line: 398
+	Message: One of the PNG icons is missing
+	Called from:
+		File: d:\Projects\DownloadManager\desktop_app\app.py
+		Function: create_home_frame
+		Line: 184
+ERROR [2025-03-02 17:24:35]
+	Function name: set_png_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 398
+	Message: One of the PNG icons is missing
+	Called from:
+		File: d:\Projects\DownloadManager\desktop_app\app.py
+		Function: create_home_frame
+		Line: 184
+ERROR [2025-03-02 15:45:15]
+	Function name: set_png_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 444
+	Message: No icon name is given
+ERROR [2025-03-02 15:45:15]
+	Function name: get_icon_path
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 420
+	Message: The icon PNG file 'downloads_dark.png' does not exist
+ERROR [2025-03-02 15:45:15]
+	Function name: get_icon_path
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 420
+	Message: The icon PNG file 'downloads_light.png' does not exist
+ERROR [2025-03-02 14:58:12]
+	Function name: set_button_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 82
+	Message: The button icon file 'home_dar' does not exist
+ERROR [2025-03-02 14:55:22]
+	Function name: set_button_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 79
+	Message: The path to the button icon file does not exist
+ERROR [2025-03-02 14:54:33]
+	Function name: set_button_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 79
+	Message: The path to the button icon file does not exist
+ERROR [2025-03-02 14:52:08]
+	Function name: set_button_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 81
+	Message: The path to the button icon file does not exist
+INFO [2025-03-02 14:50:50]
+	Function name: set_button_icon
+	Function file: d:\Projects\DownloadManager\desktop_app\app.py
+	Line number: 80
+	Message: The path to the button icon file does not exist
 ERROR [2025-02-27 12:27:09]
 	Function name: get_dictionary_stats
 	Function file: d:\Projects\Document Manager\backend\dir_operations.py
